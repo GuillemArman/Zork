@@ -2,16 +2,12 @@
 #define ROOMS_H_
 
 class Rooms{
+
+public:
+
+	Rooms(const char* name_rooms[10], const char* description_rooms[10]);
 	
-
-	rooms = new Room[];
-
-	strcpy(rooms[] name, "Room A");
-	strcpy(rooms[] desc, "You are in room A");
-
-
+	//Exit(const char* name_exits[20]);
 };
-
-
 
 #endif
